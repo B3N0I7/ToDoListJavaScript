@@ -4,18 +4,15 @@ let sortAscending = true;
 function displayToDoList() {
   const tbody = document.querySelector("tbody");
 
-  // Vider le tbody pour éviter les doublons
   tbody.innerHTML = "";
 
   for (let item of toDoList) {
     let newRow = document.createElement("tr");
 
-    // Créer la première cellule et y ajouter le texte de la tâche
     let newCol = document.createElement("td");
     newCol.innerText = item;
     newRow.appendChild(newCol);
 
-    // Créer la deuxième cellule pour le bouton
     let deleteCol = document.createElement("td");
 
     let newButtonDelete = document.createElement("button");
