@@ -1,0 +1,19 @@
+h1 {
+  text-align: center;
+  color: #000099;
+}
+
+a {
+  display: flex;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: #000099;
+  justify-content: center;
+  padding: 1em;
+}
+
+a:visited {
+  color: #fff;
+  background-color: #000099;
+}
