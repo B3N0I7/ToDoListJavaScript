@@ -1,0 +1,67 @@
+a {
+  color: #000099;
+  font-size: 14pt;
+  text-decoration: none;
+}
+
+label {
+  color: #000099;
+  font-size: 1.2em;
+}
+
+input {
+  margin: 1em;
+  padding: 1em;
+  border: 2px solid #000099;
+  border-radius: 5px;
+}
+
+select {
+  margin: 1em;
+  padding: 1em;
+  border: 2px solid #000099;
+  border-radius: 5px;
+}
+
+button {
+  margin: 1em;
+  padding: 1em;
+  border-radius: 5px;
+  background-color: #000099;
+  color: #fff;
+}
+
+button:hover {
+  background-color: #0000cc;
+}
+
+caption {
+  font-size: 16pt;
+  padding: 1em;
+}
+table {
+  border: 2px solid #000;
+  border-collapse: collapse;
+  width: 600px;
+}
+
+tr {
+  /* border: 1px solid #000; */
+  width: 600px;
+}
+
+th {
+  /* border: 1px solid #000; */
+  color: #fff;
+  background-color: #000099;
+  width: 200px;
+  padding: 1em;
+  margin: 0;
+}
+
+td {
+  border: 2px solid #000099;
+  width: 200px;
+  margin: 0;
+  border-spacing: 0;
+}

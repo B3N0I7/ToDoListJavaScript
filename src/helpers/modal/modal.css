@@ -1,0 +1,54 @@
+.modal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 400px;
+  width: 400px;
+  background-color: #fff;
+  z-index: 1000;
+}
+
+.overlay {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 999;
+}
+
+.hidden {
+  display: none;
+}
+
+.modal-question {
+  display: flex;
+  text-align: center;
+  color: #000099;
+  font-size: 24pt;
+  padding-top: 100px;
+}
+
+.modal-btn {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  padding-top: 75px;
+  gap: 10px;
+}
+
+.modal-btn-yes {
+  color: #fff;
+  background: #000099;
+  height: 50px;
+  width: 100px;
+}
+
+.modal-btn-no {
+  color: #fff;
+  background-color: #000099;
+  height: 50px;
+  width: 100px;
+}

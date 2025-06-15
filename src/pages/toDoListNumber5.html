@@ -7,10 +7,11 @@
     <link rel="icon" type="image/svg+xml" href="img/green-status.svg" />
     <link
       rel="stylesheet"
-      href="/src/css/toDoListNumber3.css"
+      href="/src/css/toDoListNumber5.css"
       type="text/css"
       media="screen"
     />
+    <link rel="stylesheet" href="/src/helpers/modal/modal.css" />
   </head>
   <body>
     <form>
@@ -26,6 +27,11 @@
         Trier par catégorie
       </button>
     </form>
+    <form>
+      <select></select>
+      <button type="button" id="categorySelect">Filtrer par catégorie</button>
+      <button type="button" id="categoryReset">Annuler le filtre</button>
+    </form>
     <table>
       <caption>
         My first ToDo List
@@ -40,6 +46,7 @@
       <tbody id="tbody"></tbody>
     </table>
     <p><a href="http://localhost:5500">Retour à l'acceuil</a></p>
-    <script src="/src/scripts/toDoListNumber3.js"></script>
+    <script type="module" src="/src/helpers/modal/modal.js"></script>
+    <script type="module" src="/src/scripts/toDoListNumber5.js"></script>
   </body>
 </html>
